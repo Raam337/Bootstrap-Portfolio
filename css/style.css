@@ -1,0 +1,42 @@
+:root{
+    --main-color: rgb(62, 60, 60);
+    --sec-color: rgb(180, 175, 209);
+    --transparent-box: rgba(5, 242, 246, 0.5);
+  }
+
+/* .navbar-nav{
+    margin-left: auto; 
+    margin-right: 0 !important;
+} */
+
+.navbar-brand{
+    background-color: var(--sec-color);
+    color: var(--main-color);
+    position:relative;
+    left: -50px;
+    padding-left: 60px;
+    padding-right: 10px;
+}
+
+.nav-item > *{
+    text-align: center;
+    color: var(--sec-color) !important;
+
+}
+
+.navbar{
+    background-color: var(--main-color) !important;
+}
+
+.navbar-toggler{
+    border-color: var(--sec-color);
+    
+}
+
+.bg-img{
+    background-image: url("../images/5319313.jpg");
+}
+
+.my-border{
+    border-right: solid var(--main-color) 5px;
+}
