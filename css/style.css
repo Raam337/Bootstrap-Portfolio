@@ -55,3 +55,12 @@
     transform: scale(1.05);
     z-index: 1;
 }
+
+@media only screen and (max-width: 768px){
+
+    .my-border{
+        border: solid var(--main-color) 0px;
+        text-decoration: underline;
+    }
+    
+}
