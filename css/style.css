@@ -40,3 +40,18 @@
 .my-border{
     border-right: solid var(--main-color) 5px;
 }
+
+.img-fluid{
+    object-fit: cover;
+    height: 100% !important;
+}
+
+.list-group-item:hover{
+    background-color: var(--sec-color);
+    user-select: all;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    z-index: 1;
+}
