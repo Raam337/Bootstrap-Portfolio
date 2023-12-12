@@ -35,3 +35,10 @@ Bootstrap version of my portfolio
 
 ##### JavaScript Dependencies
 - Inclusion of JavaScript libraries like Popper.js and Bootstrap.js for handling navigation toggle functionality.
+
+
+Desktop version:
+![Alt text](image.png)
+
+Mobile version:
+![Alt text](image-1.png)
